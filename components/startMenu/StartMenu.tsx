@@ -12,7 +12,7 @@ import StartMenu from "./StartMenu.stye";
 const StartMenus = () => {
   return (
     <StartMenu.Container>
-      <StartMenu.Options>
+      <StartMenu.Options valid>
         <StartMenu.ImageIcon src={computerImage} />
         Programes
       </StartMenu.Options>
