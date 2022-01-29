@@ -9,7 +9,9 @@ import executableImage from "@assets/executable-0.png";
 import shutDownImage from "@assets/shut_down_normal-0.png";
 import StartMenu from "./StartMenu.stye";
 
-const StartMenus = () => {
+interface StartMenusProps {}
+
+const StartMenus: React.FC<StartMenusProps> = ({}): JSX.Element => {
   return (
     <StartMenu.Container>
       <StartMenu.Options>
