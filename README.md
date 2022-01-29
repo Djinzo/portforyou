@@ -1,4 +1,4 @@
-## test status
+## Test status
 
 [![Runing Test](https://github.com/Djinzo/portforyou/actions/workflows/github-ci.yml/badge.svg)](https://github.com/Djinzo/portforyou/actions/workflows/github-ci.yml)
 
