@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
- 
+import { createGlobalStyle } from 'styled-components'
+
 const GlobalStyle = createGlobalStyle`
   body {
     font-family: "MS Sans Serif", Tahoma, Verdana, Segoe, sans-serif;
@@ -7,6 +7,6 @@ const GlobalStyle = createGlobalStyle`
     color: white;
     padding-bottom: 28px;
   }
-`;
- 
-export default GlobalStyle;
+`
+
+export default GlobalStyle

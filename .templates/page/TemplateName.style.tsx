@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 const TemplateNameStyle = {
-  Container: styled.div``,
-};
+   Container: styled.div``,
+}
 
-export default TemplateNameStyle;
+export default TemplateNameStyle
