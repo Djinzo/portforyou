@@ -1,8 +1,11 @@
 import type { NextPage } from 'next'
-import Mainscreen from '../components/mainscreen/Mainscreen'
+import Mainscreen from './MainScreen/MainScreen'
+import TaskBar from '@components/taskBar/taskBar'
 
 const Home: NextPage = () => {
-   return <Mainscreen />
+   return <Mainscreen>
+      <TaskBar/>
+   </Mainscreen>
 }
 
 export default Home
