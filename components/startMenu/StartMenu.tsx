@@ -8,41 +8,25 @@ import helpbookImage from '@assets/help_book_big-0.png'
 import executableImage from '@assets/executable-0.png'
 import shutDownImage from '@assets/shut_down_normal-0.png'
 import StartMenu from './StartMenu.stye'
+import MenueOption from '@components/MenueOption/MenueOption'
+import WindowsUpdatImage from '@assets/windows_update_large-2.png'
 
 interface StartMenusProps {}
 
 const StartMenus: React.FC<StartMenusProps> = (): React.ReactElement => {
    return (
       <StartMenu.Container>
-         <StartMenu.Options>
-            <StartMenu.ImageIcon src={computerImage} />
-            Programes
-         </StartMenu.Options>
-         <StartMenu.Options>
-            <StartMenu.ImageIcon src={disktopImage} />
-            Documents
-         </StartMenu.Options>
-         <StartMenu.Options>
-            <StartMenu.ImageIcon src={settingGearImage} />
-            Settings
-         </StartMenu.Options>
-         <StartMenu.Options>
-            <StartMenu.ImageIcon src={accessibilityImage} />
-            Find
-         </StartMenu.Options>
-         <StartMenu.Options>
-            <StartMenu.ImageIcon src={helpbookImage} />
-            Help
-         </StartMenu.Options>
-         <StartMenu.Options>
-            <StartMenu.ImageIcon src={executableImage} />
-            Run
-         </StartMenu.Options>
-         <StartMenu.Line />
-         <StartMenu.Options>
-            <StartMenu.ImageIcon src={shutDownImage} />
-            Shutdown
-         </StartMenu.Options>
+         <StartMenu.WindowsBackground>
+            <StartMenu.Text>Windows98</StartMenu.Text>
+         </StartMenu.WindowsBackground>
+         <StartMenu.List>
+         <MenueOption title="Windows Update" icon={WindowsUpdatImage.src}  bullet={false} showLine={true}></MenueOption>
+         <MenueOption title="Programe" icon={computerImage.src}  bullet={true} showLine={false}></MenueOption>
+         <MenueOption title="Document" icon={disktopImage.src}  bullet={false} showLine={false}></MenueOption>
+         <MenueOption title="Accessibility" icon={accessibilityImage.src}  bullet={false} showLine={false}></MenueOption>
+         <MenueOption title="Help" icon={settingGearImage.src}  bullet={false} showLine={true}></MenueOption>
+         <MenueOption title="Shutdown" icon={shutDownImage.src}  bullet={false} showLine={false}></MenueOption>
+         </StartMenu.List>
       </StartMenu.Container>
    )
 }

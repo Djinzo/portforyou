@@ -13,7 +13,7 @@ const StartMenu = {
       color: #212529;
       position: absolute;
       bottom: 33px;
-      width: 10%;
+      width: 200px;
    `,
    Options: styled.div`
       cursor: default;
@@ -36,5 +36,28 @@ const StartMenu = {
       border-bottom: 1px solid black;
       box-shadow: rgb(196, 195, 195);
    `,
+   List: styled.span`
+      padding-left: 24px;
+      display: block;
+   `,
+   WindowsBackground: styled.span`
+      display: inline-block;
+      width: 21px;
+      background-color: blue;
+      position: fixed;
+      height: -webkit-fill-available;
+      background: linear-gradient(#00045f,#010079,blue);
+      background: blue;
+      background: -webkit-linear-gradient(#00045f,#010079,blue);
+   `,
+   Text:styled.div`
+      font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+      color: #fff;
+      font-weight: bold; 
+      font-size: 16px;
+      position: fixed;
+      transform: rotate(-90deg) translate(-245px,-32px);
+   
+   `
 }
 export default StartMenu
