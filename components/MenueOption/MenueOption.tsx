@@ -1,8 +1,12 @@
 import React from 'react'
 import MenueOptionStyle from './MenueOption.style'
-import computerImage from '@assets/computer-3.png'
 
-interface MenueOptionProps {}
+interface MenueOptionProps {
+   title: string
+   icon: string
+   bullet: boolean
+   showLine: boolean
+}
 
 const MenueOption: React.FC<MenueOptionProps> = ({
    title,

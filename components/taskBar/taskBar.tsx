@@ -5,7 +5,7 @@ import StartMenu from '@components/startMenu/StartMenu'
 
 interface TaskBarProps {}
 
-const TaskBar: React.FC<TaskBarProps> = ({}): React.ReactElement => {
+const TaskBar: React.FC<TaskBarProps> = (): React.ReactElement => {
    const [showStartMenue, setShowStartMenue] = useState(false)
 
    function handelShowStartMenueEvent() {

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Image from 'next/image'
+
 const MenueOptionStyle = {
    Container: styled.div``,
 
