@@ -4,7 +4,7 @@ import DisktopStyle from './Disktop.style'
 
 interface DisktopProps {}
 
-const Disktop: React.FC<DisktopProps> = ({}): React.ReactElement => (
+const Disktop: React.FC<DisktopProps> = (): React.ReactElement => (
    <DisktopStyle.Container>
       <Window />
    </DisktopStyle.Container>

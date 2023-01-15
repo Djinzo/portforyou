@@ -7,7 +7,7 @@ import MinimazeImage from '@assets/minimze.svg'
 
 interface WindowProps {}
 
-const Window: React.FC<WindowProps> = ({}): React.ReactElement => (
+const Window: React.FC<WindowProps> = (): React.ReactElement => (
    <Draggable>
       <WindowStyle.Container>
          <WindowStyle.TitleBar>
