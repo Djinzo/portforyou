@@ -6,7 +6,7 @@ interface DisktopProps {}
 
 const Disktop: React.FC<DisktopProps> = ({}): React.ReactElement => (
    <DisktopStyle.Container>
-      <Window/>
+      <Window />
    </DisktopStyle.Container>
 )
 

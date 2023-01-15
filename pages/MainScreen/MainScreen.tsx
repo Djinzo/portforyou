@@ -7,7 +7,7 @@ import MainScreenStyle from './MainScreen.style'
 
 const MainScreen: NextPage = () => (
    <MainScreenStyle.Container>
-      <Disktop/>
+      <Disktop />
       <TaskBar />
    </MainScreenStyle.Container>
 )
