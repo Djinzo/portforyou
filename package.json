@@ -11,8 +11,6 @@
       "test:cov": "jest --coverage",
       "test:types": "tsc",
       "test:lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-      "gc": "npx generate-react-cli component",
-      "gp": "yarn gc --type=page",
       "prettier": "prettier --write ."
    },
    "dependencies": {

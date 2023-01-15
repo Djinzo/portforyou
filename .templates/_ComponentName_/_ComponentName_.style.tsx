@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-const TemplateNameStyle = {
+const _ComponentName_Style = {
    Container: styled.div``,
 }
 
-export default TemplateNameStyle
+export default _ComponentName_Style
