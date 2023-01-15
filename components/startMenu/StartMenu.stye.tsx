@@ -46,18 +46,17 @@ const StartMenu = {
       background-color: blue;
       position: fixed;
       height: -webkit-fill-available;
-      background: linear-gradient(#00045f,#010079,blue);
+      background: linear-gradient(#00045f, #010079, blue);
       background: blue;
-      background: -webkit-linear-gradient(#00045f,#010079,blue);
+      background: -webkit-linear-gradient(#00045f, #010079, blue);
    `,
-   Text:styled.div`
-      font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+   Text: styled.div`
+      font-family: Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic, Arial, sans-serif;
       color: #fff;
-      font-weight: bold; 
+      font-weight: bold;
       font-size: 16px;
       position: fixed;
-      transform: rotate(-90deg) translate(-245px,-32px);
-   
-   `
+      transform: rotate(-90deg) translate(-245px, -32px);
+   `,
 }
 export default StartMenu

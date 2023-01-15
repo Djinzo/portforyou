@@ -1,32 +1,26 @@
 import React, { useState } from 'react'
 import TaskBarStyle from './taskBar.style'
 import WindowsImage from '@assets/windows-0.png'
-import StartMenu from '@components/startMenu/StartMenu';
+import StartMenu from '@components/startMenu/StartMenu'
 
-interface TaskBarProps { }
+interface TaskBarProps {}
 
-const TaskBar: React.FC<TaskBarProps> = ({ }): React.ReactElement => {
-   const [showStartMenue, setShowStartMenue] = useState(false);
-
-
+const TaskBar: React.FC<TaskBarProps> = ({}): React.ReactElement => {
+   const [showStartMenue, setShowStartMenue] = useState(false)
 
    function handelShowStartMenueEvent() {
-      setShowStartMenue(!showStartMenue);
+      setShowStartMenue(!showStartMenue)
    }
 
    return (
       <TaskBarStyle.Container>
-         {showStartMenue? <StartMenu/>:""}
+         {showStartMenue ? <StartMenu /> : ''}
          <TaskBarStyle.TaskBar onClick={() => handelShowStartMenueEvent()}>
             <TaskBarStyle.StartButton>
                <TaskBarStyle.StartImage src={WindowsImage} width={18} height={18} />
-               <TaskBarStyle.StartText>
-                  Start
-               </TaskBarStyle.StartText>
+               <TaskBarStyle.StartText>Start</TaskBarStyle.StartText>
             </TaskBarStyle.StartButton>
-            <TaskBarStyle.Time>
-               10:20 PM
-            </TaskBarStyle.Time>
+            <TaskBarStyle.Time>10:20 PM</TaskBarStyle.Time>
          </TaskBarStyle.TaskBar>
       </TaskBarStyle.Container>
    )

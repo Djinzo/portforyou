@@ -20,12 +20,42 @@ const StartMenus: React.FC<StartMenusProps> = (): React.ReactElement => {
             <StartMenu.Text>Windows98</StartMenu.Text>
          </StartMenu.WindowsBackground>
          <StartMenu.List>
-         <MenueOption title="Windows Update" icon={WindowsUpdatImage.src}  bullet={false} showLine={true}></MenueOption>
-         <MenueOption title="Programe" icon={computerImage.src}  bullet={true} showLine={false}></MenueOption>
-         <MenueOption title="Document" icon={disktopImage.src}  bullet={false} showLine={false}></MenueOption>
-         <MenueOption title="Accessibility" icon={accessibilityImage.src}  bullet={false} showLine={false}></MenueOption>
-         <MenueOption title="Help" icon={settingGearImage.src}  bullet={false} showLine={true}></MenueOption>
-         <MenueOption title="Shutdown" icon={shutDownImage.src}  bullet={false} showLine={false}></MenueOption>
+            <MenueOption
+               title="Windows Update"
+               icon={WindowsUpdatImage.src}
+               bullet={false}
+               showLine={true}
+            ></MenueOption>
+            <MenueOption
+               title="Programe"
+               icon={computerImage.src}
+               bullet={true}
+               showLine={false}
+            ></MenueOption>
+            <MenueOption
+               title="Document"
+               icon={disktopImage.src}
+               bullet={false}
+               showLine={false}
+            ></MenueOption>
+            <MenueOption
+               title="Accessibility"
+               icon={accessibilityImage.src}
+               bullet={false}
+               showLine={false}
+            ></MenueOption>
+            <MenueOption
+               title="Help"
+               icon={settingGearImage.src}
+               bullet={false}
+               showLine={true}
+            ></MenueOption>
+            <MenueOption
+               title="Shutdown"
+               icon={shutDownImage.src}
+               bullet={false}
+               showLine={false}
+            ></MenueOption>
          </StartMenu.List>
       </StartMenu.Container>
    )
