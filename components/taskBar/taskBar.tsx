@@ -17,7 +17,7 @@ const TaskBar: React.FC<TaskBarProps> = (): React.ReactElement => {
          {showStartMenue ?? <StartMenu />}
          <TaskBarStyle.TaskBar onClick={() => handelShowStartMenueEvent()}>
             <TaskBarStyle.StartButton>
-               <TaskBarStyle.StartImage src={WindowsImage} width={18} height={18} />
+               <TaskBarStyle.StartImage src={WindowsImage} width={18} height={18} alt="alt" />
                <TaskBarStyle.StartText>Start</TaskBarStyle.StartText>
             </TaskBarStyle.StartButton>
             <TaskBarStyle.Time>10:20 PM</TaskBarStyle.Time>

@@ -9,7 +9,7 @@ First collaboration between PikenBower Clan members,
 first of all, migrate to `pnpm` instead of `yarn`:
 
 ```bash
-npm i -g pnpm 
+npm i -g pnpm
 ```
 
 to run in your local:
@@ -24,8 +24,7 @@ pnpm dev
 `pnpm lint` to check esl.int rules
 `pnpm lint:fix` to fix eslint problems
 
-
-Here we go Again !! 
+Here we go Again !!
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

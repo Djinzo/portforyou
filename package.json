@@ -6,37 +6,27 @@
       "build": "next build",
       "start": "next start",
       "lint": "next lint --ignore-path .gitignore --dir .",
-      "lint:fix": "yarn lint --fix --ext .ts,.tsx,.js,.jsx",
+      "lint:fix": "eslint --fix --ext .ts,.tsx .",
       "test:types": "tsc",
       "format": "prettier --write ."
    },
    "dependencies": {
-      "@babel/core": "^7.20.12",
-      "@babel/preset-react": "^7.16.7",
-      "@types/styled-components": "^5.1.21",
-      "next": "12.0.9",
-      "react": "17.0.2",
-      "react-dom": "17.0.2",
+      "@next/font": "13.1.2",
+      "@types/node": "18.11.18",
+      "@types/react": "18.0.26",
+      "@types/react-dom": "18.0.10",
+      "eslint": "8.32.0",
+      "eslint-config-next": "13.1.2",
+      "next": "13.1.2",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
       "react-draggable": "^4.4.5",
-      "react-is": "^18.2.0",
-      "styled-components": "^5.3.3"
+      "styled-components": "^5.3.6"
    },
    "devDependencies": {
-      "@babel/preset-env": "^7.16.7",
-      "@babel/preset-typescript": "^7.16.7",
-      "@next/eslint-plugin-next": "^12.0.9",
-      "@types/node": "17.0.13",
-      "@types/react": "17.0.38",
-      "babel-plugin-styled-components": "^2.0.2",
-      "eslint": "^8.8.0",
-      "eslint-config-airbnb": "^19.0.4",
-      "eslint-import-resolver-typescript": "^3.5.3",
-      "eslint-plugin-import": "^2.27.4",
-      "eslint-plugin-jsx-a11y": "^6.7.1",
-      "eslint-plugin-react": "^7.32.0",
-      "eslint-plugin-react-hooks": "^4.6.0",
-      "eslint-plugin-unused-imports": "^2.0.0",
+      "@types/styled-components": "^5.1.26",
       "prettier": "^2.5.1",
-      "typescript": "4.5.5"
+      "react-is": "^18.2.0",
+      "typescript": "^4.9.4"
    }
 }
