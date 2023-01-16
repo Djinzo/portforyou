@@ -6,15 +6,26 @@
 
 First collaboration between PikenBower Clan members,
 
+first of all, migrate to `pnpm` instead of `yarn`:
+
 ```bash
-yarn dev
+npm i -g pnpm 
 ```
 
-`yarn dev` to run
-`yarn build` to build
-`yarn format` to format the entire project
-`yarn lint` to check esl.int rules
-`yarn lint:fix` to fix eslint problems
+to run in your local:
+
+```bash
+pnpm dev
+```
+
+`pnpm dev` to run
+`pnpm build` to build
+`pnpm format` to format the entire project
+`pnpm lint` to check esl.int rules
+`pnpm lint:fix` to fix eslint problems
+
+
+Here we go Again !! 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
