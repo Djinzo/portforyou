@@ -4,7 +4,7 @@ import { NextPage } from 'next'
 import React from 'react'
 import MainScreenStyle from './MainScreen.style'
 
-const MainScreen: NextPage = () => (
+const MainScreen: React.FC = () => (
    <MainScreenStyle>
       <Disktop />
       <TaskBar />

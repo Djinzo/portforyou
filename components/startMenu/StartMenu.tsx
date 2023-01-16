@@ -1,13 +1,13 @@
 import React from 'react'
 
+import accessibilityImage from '@assets/accessibility-3.png'
 import computerImage from '@assets/computer-3.png'
 import disktopImage from '@assets/desktop-1.png'
 import settingGearImage from '@assets/settings_gear-3.png'
-import accessibilityImage from '@assets/accessibility-3.png'
 import shutDownImage from '@assets/shut_down_normal-0.png'
-import StartMenu from './StartMenu.stye'
-import MenueOption from '@components/MenueOption/MenueOption'
 import WindowsUpdatImage from '@assets/windows_update_large-2.png'
+import MenueOption from '@components/MenueOption/MenueOption'
+import StartMenu from './StartMenu.stye'
 
 interface StartMenusProps {}
 

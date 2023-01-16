@@ -1,0 +1,28 @@
+{
+   "recommendations": [
+      "Ar-mane.component-maker",
+      "bierner.color-info",
+      "codezombiech.gitignore",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "formulahendry.auto-rename-tag",
+      "gamunu.vscode-yarn",
+      "Gruntfuggly.todo-tree",
+      "iJS.emotionsnippets",
+      "ionutvmi.path-autocomplete",
+      "janisdd.vscode-edit-csv",
+      "johnuphoff.vscode-styled-sort",
+      "k--kato.intellij-idea-keybindings",
+      "michelemelluso.gitignore",
+      "naumovs.color-highlight",
+      "NuclleaR.vscode-extension-auto-import",
+      "sketchbuch.vsc-packages",
+      "steoates.autoimport",
+      "styled-components.vscode-styled-components",
+      "SumitNalavade.vscode-readme-editor",
+      "TabNine.tabnine-vscode",
+      "vscode-icons-team.vscode-icons",
+      "zaaack.markdown-editor"
+   ]
+}

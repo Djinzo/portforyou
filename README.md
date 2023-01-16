@@ -6,22 +6,25 @@
 
 First collaboration between PikenBower Clan members,
 
-```bash
-yarn dev
-```
-
-Generate component or page
-we use this follow commands
+first of all, migrate to `pnpm` instead of `yarn`:
 
 ```bash
-yarn gc ComponentName  --params
-yarn gp PageName  --params
+npm i -g pnpm
 ```
 
-for params for each commands :
-| params | Description | state |
-| ------------- |:-------------:| -----:|
-|`--path=path/to/folder` | to create in specific path | optional |
+to run in your local:
+
+```bash
+pnpm dev
+```
+
+`pnpm dev` to run
+`pnpm build` to build
+`pnpm format` to format the entire project
+`pnpm lint` to check esl.int rules
+`pnpm lint:fix` to fix eslint problems
+
+Here we go Again !!
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
