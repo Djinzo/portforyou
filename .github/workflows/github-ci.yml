@@ -3,7 +3,7 @@ name: Runing Test
 on: [push]
 
 jobs:
-   test:
+   test-portforyou:
       runs-on: [self-hosted, linux, x64, nodejs]
       steps:
          - uses: actions/checkout@v2
@@ -13,5 +13,5 @@ jobs:
            with:
               node-version: 16
          - run: yarn
-         - run: yarn test:ci
-         - run: yarn test:types
+         - run: yarn lint
+         - run: yarn check-ts

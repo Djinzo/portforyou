@@ -10,18 +10,11 @@ First collaboration between PikenBower Clan members,
 yarn dev
 ```
 
-Generate component or page
-we use this follow commands
-
-```bash
-yarn gc ComponentName  --params
-yarn gp PageName  --params
-```
-
-for params for each commands :
-| params | Description | state |
-| ------------- |:-------------:| -----:|
-|`--path=path/to/folder` | to create in specific path | optional |
+`yarn dev` to run
+`yarn build` to build
+`yarn format` to format the entire project
+`yarn lint` to check esl.int rules
+`yarn lint:fix` to fix eslint problems
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
